@@ -76,7 +76,6 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 def all_holidays_with_bbq(holiday_hash)
-  binding.pry
   new_array = []
   holiday_hash.each do |season, holidays|
     holiday.each do |supplies, item|
